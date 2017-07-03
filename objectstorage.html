@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>
+Object Storage
+</title>
+<link rel="stylesheet" type="text/css">
+<style>
+
+h1{
+font-size:60;
+display:block;
+font-family:serif;
+color:white;
+text-align:center;
+}
+h4{
+font-size:40;
+display:block;
+font-family:serif;
+color:yellow;
+}
+
+a{
+font-size:30;
+color:white;
+}
+
+input.button{
+height:50;
+width:150;
+display:bold;
+font-size:25;
+
+}
+
+body{
+margin:60px;
+font-size:30;
+color:cyan;
+background-image:url("/images/bg3");
+font-family:monotype corsiva;
+}
+
+</style>
+</head>
+
+<body>
+
+<form action="/cgi-bin/objstaas.py"  method="POST">
+<h1>OBJECT STORAGE</h1>
+<h4> Enter the drive name </h4>
+<input type="text" name="a" >
+
+<h4> Select the drive size </h4>
+<label>
+	<input type="radio" name="f" value="100">100 MB
+</label>
+<label>
+	<input type="radio" name="f" value="500">500 MB
+</label>
+<label>
+	<input type="radio" name="f" value="1">1 GB
+</label>
+
+<br><br>
+<input type="submit" class="button" value="INSTALL">
+
+</form>
+</body>
+</html>
+
