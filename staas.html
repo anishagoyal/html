@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>
+Staas
+</title>
+<link rel="stylesheet" type="text/css">
+<style>
+h1{
+font-size:60;
+display:block;
+font-family:serif;
+color:white;
+text-align:center;
+
+}
+h2{
+font-size:40;
+display:block;
+font-family:serif;
+color:yellow;
+text-align:center;
+
+}
+
+a{
+font-size:30;
+color:white;
+}
+
+
+input.button{
+height:100;
+width:350;
+display:bold;
+font-size:50;
+
+}
+
+body{
+margin:60px;
+font-size:45;
+color:cyan;
+background-image:url("/images/bg3");
+font-family:monotype corsiva;
+}
+
+</style>
+</head>
+
+<body>
+
+<form action="/cgi-bin/saas.py"  method="POST">
+<h1> SELECT A STORAGE TYPE </h1>
+
+<a href="http://192.168.122.1/objectstorage.html"> <img src="/images/objectstorage" height=350 width=350 > </a>
+ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp 
+<a href="http://192.168.122.1/blockstorage.html"> <img src="/images/blockstorage" height=350 width=350 > </a>
+<br>
+<a href="http://192.168.122.1/objectstorage.html">Object Storage </a>
+ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<a href="http://192.168.122.1/blockstorage.html">Block Storage </a>
+
+
+</form>
+</body>
+</html>
+
+

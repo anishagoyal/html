@@ -1,0 +1,113 @@
+<html>
+<head>
+<title>
+Iaas
+</title>
+<link rel="stylesheet" type="text/css">
+<style>
+h1{
+font-size:60;
+display:block;
+font-family:serif;
+color:white;
+text-align:center;
+
+}
+h2{
+font-size:30;
+display:block;
+font-family:serif;
+color:yellow;
+
+}
+
+a{
+font-size:30;
+color:white;
+}
+
+input.Checkbox  {
+zoom:5.5;
+}
+
+input.button{
+height:100;
+width:350;
+display:bold;
+font-size:50;
+
+}
+
+body{
+margin:60px;
+font-size:20;
+color:cyan;
+#background-color:black;
+background-image:url("/images/bg3");
+font-family:monotype corsiva;
+}
+
+</style>
+</head>
+
+<body>
+<form action="../cgi-bin/iaas.py">
+<h1> INFRASTRUCTURES </h1> 
+
+<h2> SOFTWARES </h2>
+<label>
+<input type="radio" name="r" value="redhat">Redhat
+</label>
+<br>
+<label>
+<input type="radio" name="r" value="kali">Kali
+</label>
+<br>
+
+
+<h2> RAM in MB</h2> 
+<label>
+<input type="radio" name="a" value="256">256
+</label>
+<br>
+<label>
+<input type="radio" name="a" value="512">512
+</label>
+<br>
+<label>
+<input type="radio" name="a" value="1024">1024
+</label>
+
+<h2> CPU in core</h2>
+<label>
+<input type="radio" name="b" value="1">1
+</label>
+<br>
+<label>
+<input type="radio" name="b" value="2">2
+</label>
+<br>
+<label>
+<input type="radio" name="b" value="3">3
+</label>
+
+<h2> HARD DISK in GB</h2>
+<label>
+<input type="radio" name="k" value="live">live
+</label>
+<br>
+<label>
+<input type="radio" name="k" value="5">5
+</label>
+<br>
+<label>
+<input type="radio" name="k" value="10">10
+</label>
+<br>
+<br>
+<br>
+
+<input type="submit" class="button" value="INSTALL">
+</form>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>
+Saas
+</title>
+<link rel="stylesheet" type="text/css">
+<style>
+h1{
+font-size:60;
+display:block;
+font-family:serif;
+color:white;
+text-align:center;
+
+}
+h2{
+font-size:40;
+display:block;
+font-family:serif;
+color:yellow;
+text-align:center;
+
+}
+
+a{
+font-size:30;
+color:white;
+}
+
+
+input.button{
+height:100;
+width:350;
+display:bold;
+font-size:50;
+
+}
+
+body{
+margin:60px;
+font-size:45;
+color:cyan;
+background-image:url("/images/bg3");
+font-family:monotype corsiva;
+}
+
+</style>
+</head>
+
+<body>
+
+<form action="/cgi-bin/saas.py"  method="POST">
+<h1> LIST OF SOFTWARES</h1>
+<h2> Select the Software That You Want to Install</h2>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp
+<label>
+	<input type="radio" name="f" value="firefox">&nbsp<img src="/images/firefox" height=35 width=35>Firefox
+</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<label>
+	<input type="radio" name="f" value="vlc">&nbsp<img src="/images/vlc" height=35 width=35>VLC media
+</label>
+<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp
+<label>
+	<input type="radio" name="f" value="webcam">&nbsp<img src="/images/webcam" height=35 width=35>Webcam
+</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<label>
+	<input type="radio" name="f" value="screenshot">&nbsp<img src="/images/ss" height=35 width=35>Screenshot
+</label>
+<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp
+<label>
+	<input type="radio" name="f" value="calculator">&nbsp<img src="/images/calci" height=35 width=35>Calculator
+</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<label>
+	<input type="radio" name="f" value="imageviewer">&nbsp<img src="/images/imageviewer" height=35 width=35>Imageviewer
+</label>
+<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp
+<label>
+	<input type="radio" name="f" value="openoffice">&nbsp<img src="/images/openoffice" height=35 width=35>OpenOffice
+</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<label>
+	<input type="radio" name="f" value="gedit">&nbsp<img src="/images/gedit" height=35 width=35>Gedit
+</label>
+<br>
+<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="submit" class="button" value="INSTALL">
+</form>
+</body>
+</html>
+
+
+
